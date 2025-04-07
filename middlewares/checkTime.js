@@ -4,7 +4,7 @@ const checkTime = (req, res, next) => {
     const hour = now.getHours(); // Récupère l'heure actuelle
 
     // Vérification : heures de travail (du lundi au vendredi, de 9h00 à 17h00)
-    if (day ) {
+    if (day >= 1 && day <= 5 && hour >= 9 && hour < 17) {
         return next(); // Si l'heure est dans la plage autorisée, passe à la prochaine fonction
     } else {
         return res.render('closed'); // Affiche la page "closed" si en dehors des heures
