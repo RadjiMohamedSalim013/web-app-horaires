@@ -28,27 +28,7 @@ Créer une application web simple avec Express qui :
 
 > Si vous accédez au site en dehors des horaires autorisés, une page "Site fermé" s'affichera.
 
-## Structure du projet
 
-```
-.
-├── app.js
-├── routes/
-│   └── pageRoutes.js
-├── middleware/
-│   └── checkWorkingHours.js
-├── public/
-│   └── style.css
-├── views/
-│   ├── partials/
-│   │   └── nav.ejs
-│   ├── accueil.ejs
-│   ├── services.ejs
-│   ├── contact.ejs
-│   ├── closed.ejs
-│   └── 404.ejs
-└── README.md
-```
 
 ## Lancer le projet en local
 
