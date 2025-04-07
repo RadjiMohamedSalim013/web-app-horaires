@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nous contacter</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <%- include('partials/nav') %>
+
+  <main class="contact-container">
+    <div class="contact-header">
+      <h1>Contactez-nous</h1>
+      <p class="subtitle">Une question ? Un projet ? Nous sommes à votre écoute.</p>
+    </div>
+    
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" id="name" name="name" required>
+        <label for="name">Votre nom</label>
+      </div>
+      
+      <div class="form-group">
+        <input type="email" id="email" name="email" required>
+        <label for="email">Votre email</label>
+      </div>
+      
+      <div class="form-group">
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="message">Votre message</label>
+      </div>
+      
+      <button type="submit" class="submit-btn">
+        <span>Envoyer le message</span>
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </form>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-content">
+        <p>&copy; 2023 SalimTechSolutions. Tous droits réservés.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
