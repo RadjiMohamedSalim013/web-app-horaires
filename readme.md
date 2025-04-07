@@ -24,7 +24,7 @@ Créer une application web simple avec Express qui :
 
 ## Lien du site hébergé
 
-[Accéder à l'application]()
+[Accéder à l'application](https://web-app-horaires.onrender.com/)
 
 > Si vous accédez au site en dehors des horaires autorisés, une page "Site fermé" s'affichera.
 
@@ -34,7 +34,7 @@ Créer une application web simple avec Express qui :
 
 1. **Cloner le repository** :
    ```bash
-   git clone 
+   git clone https://github.com/RadjiMohamedSalim013/web-app-horaires
    cd web-app-horaires  # Dossier racine du projet
    ```
 
